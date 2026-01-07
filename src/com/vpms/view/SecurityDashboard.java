@@ -24,7 +24,7 @@ public class SecurityDashboard extends JFrame {
     private JLabel lblResidentInfo;
 
     public SecurityDashboard() {
-        setTitle("Surya Industry - VPMS Security");
+        setTitle("VPMS Security - Vehicle Parking Management System");
         setSize(1100, 750);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -34,7 +34,7 @@ public class SecurityDashboard extends JFrame {
         JPanel header = new JPanel(new BorderLayout());
         header.setBackground(new Color(52, 73, 94));
         header.setPreferredSize(new Dimension(1100, 60));
-        JLabel lblTitle = new JLabel("  SURYA INDUSTRY - VPMS ENTRY/EXIT", JLabel.LEFT);
+        JLabel lblTitle = new JLabel("  VPMS - VEHICLE PARKING MANAGEMENT SYSTEM ENTRY/EXIT", JLabel.LEFT);
         lblTitle.setForeground(Color.WHITE);
         lblTitle.setFont(new Font("Segoe UI", Font.BOLD, 18));
         header.add(lblTitle, BorderLayout.WEST);

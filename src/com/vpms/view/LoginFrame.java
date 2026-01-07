@@ -13,7 +13,7 @@ public class LoginFrame extends JFrame {
     private JButton btnLogin, btnForgotPassword;
 
     public LoginFrame() {
-        setTitle("Surya Industry - VPMS Login");
+        setTitle("VPMS - Vehicle Parking Management System");
         setSize(400, 350);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -25,7 +25,7 @@ public class LoginFrame extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        JLabel lblTitle = new JLabel("SURYA INDUSTRY - VPMS", JLabel.CENTER);
+        JLabel lblTitle = new JLabel("VPMS - VEHICLE PARKING MANAGEMENT SYSTEM", JLabel.CENTER);
         lblTitle.setFont(new Font("Arial", Font.BOLD, 20));
         lblTitle.setForeground(new Color(40, 60, 100));
         add(lblTitle, BorderLayout.NORTH);

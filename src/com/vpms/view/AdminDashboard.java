@@ -23,7 +23,7 @@ public class AdminDashboard extends JFrame {
     private JButton btnSaveEntry;
 
     public AdminDashboard() {
-        setTitle("Surya Industry - VPMS Admin");
+        setTitle("VPMS Admin - Vehicle Parking Management System");
         setSize(1000, 700);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -34,7 +34,7 @@ public class AdminDashboard extends JFrame {
         header.setBackground(new Color(45, 52, 54));
         header.setPreferredSize(new Dimension(1000, 60));
 
-        JLabel lblTitle = new JLabel("  SURYA INDUSTRY - VPMS ADMIN PANEL", JLabel.LEFT);
+        JLabel lblTitle = new JLabel("  VPMS - VEHICLE PARKING MANAGEMENT SYSTEM ADMIN PANEL", JLabel.LEFT);
         lblTitle.setForeground(Color.WHITE);
         lblTitle.setFont(new Font("Segoe UI", Font.BOLD, 18));
         header.add(lblTitle, BorderLayout.WEST);
